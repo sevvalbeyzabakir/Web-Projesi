@@ -1,0 +1,2206 @@
+*{
+    margin:0;
+    padding: 0;;
+}
+body{
+   width: 100%;   
+   font-family: Montserrat;
+}
+header,.logo img{
+    height: 145px;
+}
+header{
+    justify-content: space-evenly;
+}
+.logo img{
+    margin-left: 2rem;
+}
+.foto{
+    width: 100%;
+}
+.normal{
+    font-size: 12px;
+    font-weight: bold;
+}
+.gri-text2{
+    font-weight: bold;
+}
+.header-sosyal-medya{
+    margin-left: 83% !important;
+}
+.header-sosyal-medya ul{
+    align-items: flex-start;
+}
+.header-sosyal-medya-fc, .header-sosyal-medya-tw, .header-sosyal-medya-ins{
+    width: 28%;
+}
+.header-sosyal-medya-ins{
+    margin-left: 25% !important;
+}
+.header-sosyal-medya-tw{
+    margin-left: 45% !important;
+}
+.header-sosyal-medya-fc{
+    margin-left: 55% !important;
+}
+.header-sosyal-medya-ytb{
+    width: 33%;
+}
+.header-div3 a:hover{
+    cursor: pointer;
+}
+.header-div3, .header-div4, .header-div5, .header-div6, .header-div7{
+    padding-top: 2rem ;
+}
+.header-div6{
+    padding-right: 0rem !important;
+}
+.dil-secenegi{
+    padding-top: 4rem;
+}
+.header-div5{
+    padding-left: 1.2rem !important;
+}
+.shortdown1{
+    width: 18px;
+    margin-left: 2.3rem !important;
+}
+.shortdown2, .shortdown3{
+    width: 18px;
+    margin-left: 2.9rem !important;
+}
+.bold{
+    font-weight: bold;
+    font-size: 16px;
+}
+.bitmap, .bitmap2{
+    width: 140px;
+    height: 55px;
+}
+.e-bel {
+    margin-top:-48px;
+    margin-left:10px;
+    height: 40px;
+    width: 145px;
+}
+.e-bel, .header-font{
+    color:#443E40 ;
+    font-size: 0.7vw;
+}.open-menu-ebel, .open-menu-diyarbkr{
+    color:#443E40 ;
+    font-size: 3vw;
+}
+.header-font:hover, .e-bel2 a:hover, .alo a:hover, .baskana-mesaj a:hover, .open-menu a:hover {
+    text-decoration: none;
+}
+.e-bel a img, .mavi-border img, .arama, .e-bel2 a img, .baskana-mesaj a img{
+    width: 22px;
+    height: 22px;
+}
+.alo{
+    width: 100px;
+    height: 35px;
+    margin-top: -21%;
+    margin-left: 10px;
+}
+.bitmap-alo{
+    width: 90px;
+    height: 45px;
+}
+.navbar-collapse{
+    border: 1px solid #e9e9e9;
+    background-color: white;
+    border-radius: 10px;
+}
+.navbar-collapse li{
+    margin-left: 5%;
+}
+
+.e-bel2 a, .alo a, .baskana-mesaj a{
+    font-size: 0.8vw;
+    letter-spacing: 0.05em;
+    color: #443E40;
+}
+.alo a p, .e-bel2 a p, .baskana-mesaj a p{
+    margin-top: -0.5%;
+}
+.e-bel2{
+    margin-left: 25px;
+    margin-top:-48px;
+    width: 130px;
+}
+.menu{
+    width: 34px;
+    height: 34px;
+    margin-top: 2.1rem;
+}
+.mavi-border{
+    border: solid 2px #009FE3;
+    width: 160px;
+    height: 45px;
+}
+.gri-text, .gri-text2, .gri-text3,.gri-text4{
+    color: #717171;
+}
+.gri-text3{
+    margin-left: 10%;
+}
+.dil{
+    width: 16px;
+    height: 16px;
+}
+.img-bg1, .img-bg2{
+    width: auto;
+    height: auto;
+}
+.open-menu{
+    z-index: 1001;
+    width: 275px;
+    min-height: 1500px;
+}
+.open-menu, .header-div8, .header-sosyal-medya{
+    display: none;
+}
+.open-menu-logo img{
+    height: 75px;
+}
+.open-menu ul li a{
+    border-top: 1px solid;
+    border-color: #dcdcdc;
+    color: black;
+    font-weight: 600;
+    padding: 15px 20px;
+    width: 100%;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 0.03em; 
+}
+.close-icon{
+    z-index: 1001;
+    margin-left:140px; 
+    font-size: 30px;
+    cursor:pointer;
+}
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\f00d";
+}
+.fixed-top {
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.dark-screen{
+    opacity: 0.5; 
+    z-index: 1000;
+    height: 100%;
+    min-height: 1500px;
+    margin-left: 275px;
+}
+.mavi-alan{
+    width: 24.5%;
+    height: 1%;
+    background-color: #009FE3;
+    z-index: 2;
+}
+.full-bir, .full-iki{
+    align-items: flex-start;
+}
+.full-bir-sag, .full-iki-sag{
+    width: 70%;
+}
+.full-bir-div4{
+    margin-top: -9.8rem;
+    margin-left: 20rem;
+    align-items: flex-end;
+}
+.mavi-line{
+    height: 2000% !important;
+    border: 1px solid #009FE3;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    margin-left: 100%;
+}
+.mavi-yazi{
+    width: 22%;
+    margin-top: 21%;
+    margin-left: -60%;
+    z-index: 2;
+}
+.tirnak-isareti{
+    width: auto;
+    height: 45px;
+    margin-top: -4rem;
+    margin-left: -5rem;
+}
+.flu-bg div{
+    padding: 8%;
+    background: rgba(113, 113, 113, 0.5);
+    backdrop-filter: blur(20px);
+    font-size: 1vw;
+}
+.expand{
+    margin-right: 270px;
+    background: rgba(235, 203, 122, 0.58);
+    backdrop-filter: blur(20px);
+    width: 180px;
+    height: 80px;
+}
+.expand img{
+    width: 35px;
+    height: 35px;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.full-bir-sol, .full-iki-sol{
+    width: 30%;
+}
+.full-bir-sol-yüzde80, .full-bir-sol-yüzde80-bir, .full-iki-sol-yüzde80, .full-iki-sol-yüzde80-bir{
+    width: 80%;
+}
+.full-cizgi {
+    width: 1vw;
+    margin-left: 97vw;
+    margin-top: 10vw;
+}
+.gri-cizgi, .mavi-cizgi{
+    width: 0.3vw;
+    height: 2vw;
+    border-radius: 20%;
+}
+.gri-cizgi{
+    background-color: #C4C4C4;
+}
+.mavi-cizgi{
+    background-color: #009FE3;
+}
+.gri-cizgi:hover, .mavi-cizgi:hover{
+    width: 5px;
+    background-color: #009FE3;
+}
+.full-iki-sol-yüzde80-bir{
+    z-index: 2;
+    width: 18.3%;
+    margin-left: 8.6%;
+}
+.full-iki-sol-yüzde80-iki-div1{
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(57, 196, 255, 0.8) 0%, rgba(0, 159, 227, 0.8) 100%);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(22px);
+    width: 20%;
+}
+.txt-hafizakenti {
+    font-size: 1.5vw;
+    margin-top: 18%;
+}
+.full-bir-sol-yüzde80-bir .imgbg{
+    z-index: 1;
+    width: 20%;
+    max-height: 1000px;
+}
+.full-bir-sol-yüzde80-bir .img-ok{
+    z-index: 2;
+    width: 3%;
+    margin-top: 5.5%;
+}
+.full-bir-sol-yüzde80-bir .div1{
+    z-index: 1;
+    width: 15%;
+    height: 6%;
+    margin-top: 2rem;
+    font-size: 1vw;
+}
+.full-bir-sol-yüzde80-iki{
+    width: 80%;
+    margin-top: 40%;
+}
+.full-bir-sol-yüzde80-iki .div2,.full-bir-sol-yüzde80-iki .div3{
+    z-index: 1;
+}
+.full-bir-sol-yüzde80-iki .baslik2, .full-bir-sol-yüzde80-iki .aciklama, .oklar,.oklar2{
+    z-index: 3;
+}
+.oklar, .oklar2{
+    width: 7%;
+    display: inline-grid;
+}
+.oklar{
+    margin: 9% 0% 0% 1%;
+}
+.oklar2{
+    margin: 15% 0% 0% 1%;
+}
+.full-bir-sol-yüzde80-iki .aciklama{
+    font-size: 1.9vw;
+    margin-top: 35%;
+}
+.full-bir-sol-yüzde80-iki .aciklama3 {
+    font-size: 1.9vw;
+    margin-top: 40%;
+}
+.full-bir-sol-yüzde80-iki .baslik2, .full-bir-sol-yüzde80-iki .baslik3{
+    font-size: 0.8vw;
+}
+.full-bir-sol-yüzde80-bir .imgnoti{
+    z-index: 2;
+    width: 2%;
+}
+.sosyal-medya ul{
+    margin-bottom: 0rem;
+}
+.full-bir-sol-fc, .full-bir-sol-tw, .full-bir-sol-ins{
+    width: 32%;
+    height: auto;
+}
+.full-bir-sol-tw{
+    margin-left: 20%;
+}
+.full-bir-sol-ins{
+    margin-left: 13%;
+}
+.full-bir-sol-ytb
+{
+    width: 35%;
+    height: auto;
+}
+.full-iki-sol-yüzde80-bir img{
+    margin-left: -10%;
+}
+.full-bir-sol-yüzde80-iki .div2{
+    margin-top: -1%;
+    background: url(../DiyarbakirWeb/Resource/Rectangle7.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 240px;
+}
+.full-bir-sol-yüzde80-iki .div3{
+    margin-top: 15.2%;
+    background: url(../DiyarbakirWeb/Resource/Rectangle8.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    min-height: 240px;
+}
+.full-iki-sag-div1{
+    background: url(../DiyarbakirWeb/Resource/bg-2-11.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index:1;
+    background-size: 100%;
+    width: 70%;
+}
+.full-iki-sag-div4{
+    width: 70%;
+    height: 200px;
+    position: absolute;
+    z-index:1;
+    margin-top: 13%;
+}
+.full-iki-sag-div5{
+    width: 50%;
+    height: 500px;
+    z-index:2;
+    margin: 4% 0% 0% 21.87%;
+    background: url(../DiyarbakirWeb/Resource/Rectangle19.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-size: 100%;
+}
+.full-iki-sag-div6{
+    width: 52%;
+    margin: 37% 0% 0% 7%;
+    background: rgba(255, 255, 255, 0.53);
+    backdrop-filter: blur(20px);
+}
+.full-iki-sag-div7{
+    background: url(../DiyarbakirWeb/Resource/bg-2-3.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 7% 0% 6% 6%;
+}
+.full-iki-sag-div8{
+    background: url(../DiyarbakirWeb/Resource/bg-2-4.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 7% 6% 6% 6%;
+}
+.full-iki-sag-div9{
+    margin: 37% 0% 0% 2%;
+    z-index: 2;
+    width: 30% !important;
+}
+.full-iki-sag-div15{
+    margin: 36.2% 0% 0% 3.5%;
+    z-index: 2;
+    width: 16% !important;
+}
+.full-iki-sag-div15 span{
+    letter-spacing: 0.1em;
+    color: #717171;
+}
+.full-iki-sag-div15 span, .full-iki-sag-div3 p{
+    font-size: 0.7vw;
+}
+.full-iki-sag-div10, .full-iki-sag-div11{
+    border: 1px solid #C4C4C4;
+}
+.ikon1, .ikon2{
+    width: 50px;
+    margin: 25% 37.5%;
+}
+.full-iki-sag-div1 p{
+    width: 11%;
+    margin: 1% 0% 0% 6%;
+    font-size: 1.9vw;
+}
+.full-iki-sag-div2 p{
+    width: 30%;
+    margin: 8% 0% 0% 10%;
+    font-size: 0.8vw;
+    line-height: 18px;
+}
+.full-iki-sag-div2 .detay{
+   font-size: 0.6vw;
+   margin: 0% 0% 0% 0%;
+   width: 15%;
+}
+.full-iki-sag-div2 .detaylar{
+    border-left: 8px solid #009FE3;
+    height: 50px;
+}
+.full-iki-sag-div2 .img-ok2, .img-ok3{
+    width: 4%;
+}
+.full-iki-sag-div10 img{
+    width: 40%;
+}
+.full-iki-sag-div3{
+    position: relative;
+    z-index:1;
+    max-height: 540px;
+}
+.full-iki-sag-div11{
+    background: rgba(18, 26, 41, 0.1);
+    width: 10%;
+}
+.full-iki-sag-div14{
+    background: #009FE3;
+    background: rgba(18, 26, 41, 0.2);
+    width: 10%;
+}
+.prgrf-1, .prgrf-3{
+    font-size: 0.8vw;
+}
+.prgrf-2, .prgrf-4{
+    font-size: 0.7vw;
+    margin-bottom: 0rem;
+}
+.prgrf-1, .prgrf-2, .prgrf-3, .prgrf-4, .detay{
+    color: #717171;
+}
+.full-iki-sag-div12{
+    margin: 55% 0% 0% 0%;
+    z-index: 2;
+    width: 100% !important;
+    background-color: #009FE3;
+}
+.full-iki-sag-div13{
+    padding: 5.5%;
+}
+.full-iki-sag-div14 img{
+    margin-top: 120% !important;
+}
+.full-üc{
+    margin-top: 53%;
+    width: 93%;
+    margin-left: 1.8%;
+}
+.full-üc-header{
+   font-family: Barlow Condensed;
+    margin-right: 0px;
+}
+.gri-bg, .gri-bg2, .gri-bg3{
+    background-color: #C4C4C4;
+}
+.txt-diyarbkr{
+    margin-left: -31%;
+}
+.full-üc-header-list ul{
+    list-style-type: none;
+    justify-content: center;
+}
+.oklar3{
+    width: 10%;
+}
+.oklar3 img{
+    width: 5%;
+}
+.oklar3-img1{
+    margin-left: 85%;
+}
+.full-üc-div5 p{
+    font-size: 1vw;
+}
+.flu-bg2{
+    margin-left: 5%;
+}
+.flu-bg2 div, .full-üc-div9{
+    background: rgba(113, 113, 113, 0.5);
+    backdrop-filter: blur(20px);
+    font-size: 0.8vw;
+}
+.flu-bg2 div{
+    padding: 5%;
+}
+.full-üc-div6 span{
+    font-size: 1.5vw;
+}
+.full-üc-div6 img{
+    width: 5%;
+}
+.full-üc-div7 p{
+    font-size: 1.3vw;
+}
+.full-üc-div8 p{
+    font-size: 0.8vw;
+}
+.white-expand{
+    z-index: 2;
+    margin-top: -10%;
+    width: 5%;
+}
+.gray-line{
+    width: 40%;
+    height: 0.6%;
+    background: rgba(113, 113, 113, 0.5);
+    transform: rotate(-90deg);
+    margin-left: 29.8%;
+    margin-top: -9.4%;
+}
+.flu-bg3 img{
+    margin-left: 50%;
+    margin-top: -41.2%;
+    z-index: 3;
+}
+.full-üc-div9{
+    padding: 5%;
+    width: 50% !important;
+    margin-top: -10%;
+    margin-right: 0.2%;
+}
+.detaylar2{
+    height: 50px;
+    border-left: 8px solid #EBCB7A;
+}
+.detay2{
+    font-size: 0.9vw;
+}
+.full-üc-div10{
+    border-left:10px solid #EBCB7A;
+    height: 55px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Montserrat;
+    color: #443E40;
+}
+.full-üc-div4, .e-bel, .mavi-border {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.full-üc-div10 p:not(:last-child){
+    font-size: 0.8vw;
+}
+.div10-sol, .div10-sol2, .div10-sol3{
+    color: #C4C4C4;
+}
+.div10-sol{
+    margin-left: 22%;
+}
+.div10-sol2{
+    margin-left: 31%;
+}
+.div10-sol3{
+    margin-left: 37%;
+}
+.full-üc-div10 .gri-bg, .full-üc-div10 .gri-bg2, .full-üc-div10 .gri-bg3{
+    height: 50%;
+}
+.full-üc-div10 .gri-bg p, .full-üc-div10 .gri-bg2 p,.full-üc-div10 .gri-bg3 p{
+    font-size: 0.6vw;
+    margin-bottom: 0rem !important;
+    margin-top: 8%;
+}
+.full-üc-div6 span{
+    padding: 2%;
+}
+.full-dört{
+    width: 95%;
+}
+.full-dört-div1{
+    background: url(../DiyarbakirWeb/Resource/bg-26.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.full-dört-div2, .full-dört-div3, .full-dört-div6{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.full-beş img{
+    width: 5vw;
+}
+.üst1, .üst2, .üst3, .üst4, .alt1, .alt2, .alt3, .alt4{
+    background-color: #e5e5e5;
+    opacity: 70%;
+    width: 25%;
+}
+.üst1 img, .üst2 img, .üst3 img, .üst4 img, .alt1 img, .alt2 img, .alt3 img, .alt4 img{
+    width: 40% !important;
+    margin-left: 28%;
+}
+.white-bgg {
+    background: rgba(255, 255, 255, 1);
+}
+.white-bgg p{
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-size: 0.6vw;
+    line-height: 17px;
+    color: #717171;
+}
+.full-dört-div2{
+    background: url(../DiyarbakirWeb/Resource/Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.full-dört-sosyal-medya ul div{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(196, 196, 196, 0.27) 100%);
+}
+.full-dört-sosyal-medya-fc{
+    width: 0.5vw;
+}
+.full-dört-sosyal-medya-tw, .full-dört-sosyal-medya-ytb, .full-dört-sosyal-medya-ins{
+    width: 1vw;
+}
+.full-dört-sosyal-medya-ins, .full-dört-sosyal-medya-tw, .full-dört-sosyal-medya-ytb{
+    margin-left: 30%;
+}
+.full-dört-div3{
+    border: 1px solid #C4C4C4;
+    box-shadow: 0px 20px 20px -15px rgba(96, 114, 147, 0.2);
+}
+.line, .line2, .line3{
+    position: absolute;
+    width: 100px;
+    transition: opacity 0.3s ease-in-out;
+}
+.line{
+    margin-left: -170px;
+}
+.line2 {
+    margin-left: -30px;
+}
+.line3 {
+    margin-left: 90px;
+}
+.dplay{
+    opacity: 0.5;
+}
+div.map-content {
+    display: none;
+    min-height: 100px;
+}
+.map-marker, .map-marker-header {
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+div.current {
+    display: block;
+}
+ .active {
+     font-weight: bold;
+    opacity: 1.5;
+} 
+.active3{
+    opacity: 1;
+}
+.pcursor{
+    cursor: pointer;
+}
+.baslik, .ana-baslik{
+    font-family: Barlow Condensed;
+    font-size:1.1vw;
+}
+.ana-baslik{
+    color: #717171;
+    margin-top: -2.8%;
+    width: 45%;
+}
+.gri-line{
+    height: 2px;
+    left: 838px;
+    background: #E5E5E5;
+}
+.full-dört-div4-border{
+    height: 70px;
+    border-left: 3px solid  #009FE3;
+    font-family: Montserrat;
+    font-size: 0.8vw;
+    color: #443E40;
+}
+.full-dört-div4-border .tarih{
+    font-size: 0.6vw;
+    margin-top: -2%;
+}
+.img-ok4{
+    width: 7%;
+    height: 7%;
+}
+.gri-yazi{
+    color: #C4C4C4;
+}
+.full-üc-header-list ul li{
+    margin-right: 0.7rem !important;
+}
+.duyuru{
+    border-bottom:3px solid #009FE3;
+    padding-bottom: 0.5%;
+}
+.full-dört-div5 span{
+    border-bottom:2px solid #443E40;
+    font-size: 0.6vw;
+}
+.full-dört-div7{
+    padding-left: 2.5rem !important;
+}
+.div-baskan img{
+    width: 70%;
+}
+.baskan-sosyal-medya .fc{
+    width: 2.8%;
+}
+.baskan-sosyal-medya .tw{
+    width: 5.8%;
+}
+.baskana-mesaj{
+    margin-left: 25px;
+    margin-top:-48px;
+    width: 160px;
+}
+.baskana-mesaj a {
+    font-family: Montserrat;
+    letter-spacing: 0.05em;
+    font-size: 0.7vw;
+}
+.footer{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+    padding-left: 25px !important;
+    width: 95%;
+}
+.footer-div1{
+    background: rgba(68, 62, 64, 0.62);
+}
+.footer-div1 span{
+    font-family: Montserrat;
+    color: #C4C4C4;
+    font-size: 1.2vw;
+}
+.footer-div2{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.footer-div3{
+    background: #443E40;
+}
+.footer-yazi{
+    font-family: Barlow;
+    font-size: 1vw;
+    color: #C4C4C4;
+}
+@media (min-width:1990px){
+    .baslik ul{
+        justify-content: space-around;
+    }
+    .line, .line2, .line3 {
+        width: 180px;
+    }
+    .line{
+        margin-left: -350px;
+    }
+    .line2{
+        margin-left: -60px;
+    }
+    .line3{
+        margin-left: 200px;
+    }
+    .img-bg1, .img-bg2{
+        height: 1000px;
+        width: 100%;
+    }
+    .full-üc-div11{
+        margin-top: 10% !important;
+    }
+    .full-dört{
+        margin-top: 2% !important;
+    }
+    .full-dört-sosyal-medya{
+        margin-bottom: 1.2vw;  
+    }
+    .shortdown1, .shortdown2, .shortdown3{
+        width: 1vw;
+    }
+    .full-iki-sag-div15 {
+        width: 20% !important;
+    }
+    .footer-div1-2 span:not(:first-child){
+        margin-left: 13% !important;
+    }
+    .footer-e-bel, .footer-diyarbakır,.footer-haberler{
+        padding-left: 11%;
+    }
+    .footer-kurumsal, .footer-hizmetler,.footer-projeler{
+        padding-left: 4%;
+    }
+    .footer-div1-1 span:not(:first-child){
+        margin-left: 13% !important;
+    }
+    .header-list li{
+        margin: 0rem 5rem;
+    }
+    .normal {
+        font-size: 0.7vw;
+    }
+    .bold {
+        font-size: 1.1vw;
+    }
+    .shortdown1{
+        margin-left: 3.1rem !important;
+    }
+    .shortdown2, .shortdown3{
+        margin-left: 3.9rem !important;
+    }
+    .bitmap, .mavi-border{
+        width: 180px;
+    }
+    .e-bel{
+        width: 185px;
+        font-size: 18px;
+    }
+    .header-font:hover, .gri-text{
+        font-size: 1vw;
+    }
+    .gri-text3, .etkinlik, .footer-div1 span{
+        font-size: 1.2vw;
+    }
+    .footer-div1-2, .footer-div1-1{
+        text-align: center !important;
+    }
+    .footer-div1-1 span{
+        margin-left: -15%;
+    }
+    .dil{
+        width: 22px;
+        height: 22px;
+    }
+    .arama{
+        width: 35px;
+        height: 35px;
+    }
+    .full-bir-sol-yüzde80-bir .div1{
+        font-size: 1.2vw;
+        width: 18%;
+        margin-left: 3rem !important;
+        margin-top: 3%;
+        padding-left: 3rem !important;
+    }
+    .full-bir-sol-yüzde80{
+        width: 90%;
+    }
+    .full-bir-sol-yüzde80-bir .imgnoti{
+        margin-top: 4% !important;
+    }
+
+    .full-bir-sol-yüzde80-bir .img-ok{
+        margin-top: 7%;
+    }
+    .full-bir-sol-fc, .full-bir-sol-tw, .full-bir-sol-ins{
+        width: 45%;
+    }
+    .full-bir-sol-ytb{
+        width: 40%;
+    }
+    .sosyal-medya{
+        margin-left: 2.4rem !important;
+    }
+    .full-bir-div4{
+        margin-top: -12.2%;
+        margin-left: 15%;
+    }
+    .tirnak-isareti{
+        margin-top: -4%;
+        margin-left: 6%;
+    }
+    .flu-bg{
+        margin-left: 18%;
+    }
+    .flu-bg div{
+        font-size: 1vw;
+        padding: 8%;
+    }
+    .expand{
+        margin-right: 33%;
+        width: 200px;
+        height: 100px;
+    }
+    .expand img{
+        margin-top: 33%;
+        margin-left: 30%;
+    }
+    .mavi-alan{
+        width: 17.8%;
+    }
+    .full-bir-sol-yüzde80-iki .aciklama, .full-bir-sol-yüzde80-iki .aciklama3{
+        font-size: 2vw;
+    }
+    .full-iki-sag-div5{
+        height: 800px;
+        margin: 2% 0% 0% 21.87%;
+    }
+    .full-iki-sag-div2 p{
+        width: 35%;
+        font-size: 0.9vw;
+        line-height: 40px;
+    }
+    .full-iki-sag-div2 .detaylar{
+        margin-left: 10% !important;
+    }
+    .full-iki-sag-div2 .detay{
+        font-size: 0.8vw;
+    }
+    .full-iki-sag-div2 .img-ok2, .full-iki-sag-div2 .detay{
+        margin-left: 2% !important;
+        margin-top: 0% !important;
+    }
+    .full-iki-sag-div14 img{
+        margin-top: 140% !important;
+    }
+    .full-üc-div9{
+        margin-right: 0%;
+    }
+    .div10-sol{
+        margin-left: 27%;
+    }
+    .div10-sol2{
+        margin-left: 35%;
+    }
+    .div10-sol3{
+        margin-left: 41%;
+    }
+    .flu-bg2{
+        margin-left: 3%;
+    }
+    .bitmap2{
+        width: 200px;
+        height: 80px;
+    }
+    .bitmap-alo{
+        width: 170px;
+        height: 80px;
+    }
+    .alo{
+        width: 150px;
+        height: 58px;
+        margin-top: -70px;
+    }
+    .alo a p{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .e-bel2{
+        margin-top: -70px;
+        width: 205px;
+        height: 60px;
+    }
+    .baskana-mesaj{
+        width: 300px;
+        height: 60px;
+        margin-top: -70px;
+    }
+    .baskana-mesaj img, .baskana-mesaj p, .alo a p, .e-bel2 a p{
+        margin-top: 2% !important;
+    }
+    .full-dört-div5{
+        margin-top: 10% !important;
+    }
+    .baskana-mesaj a, .alo a, .e-bel2 a{
+        font-size: 0.8vw;
+    }
+    .e-bel2 a img{
+        width: 20%;
+        height: 20%;
+    }
+    .baskana-mesaj a img{
+        width: 13%;
+        height: 13%;
+    }
+    .full-dört-sosyal-medya ul div{
+        width: 60px;
+        height: 60px;
+    }
+    .full-dört-sosyal-medya-fc{
+        margin-left: 33% !important;
+        margin-top: 22% !important;
+    }
+    .full-dört-sosyal-medya-tw, .full-dört-sosyal-medya-ytb, .full-dört-sosyal-medya-ins{
+        margin-top: 20% !important;
+    }
+    .full-dört-sosyal-medya-ytb{
+        margin-top: 25% !important;
+    }
+    .full-dört-sosyal-medya-tw,.full-dört-sosyal-medya-ins{
+        margin-left: 28%;
+    }
+    .full-beş img {
+        width: 6vw;
+        margin-right: 1.2rem !important;
+        margin-left: 1.2rem !important;
+    }
+}
+@media (max-width:1989px){
+    .baslik ul{
+        justify-content: center;
+    }
+    .full-beş img {
+        width: 6vw;
+        margin-right: 1rem !important;
+        margin-left: 1rem !important;
+    }
+    .footer-div1-2 span:not(:first-child) {
+        margin-left: 18% !important;
+    }
+    .footer-e-bel, .footer-diyarbakır, .footer-haberler {
+        padding-left: 11.7%;
+    }
+    .footer-kurumsal, .footer-hizmetler,.footer-projeler{
+        padding-left: 4%;
+    }
+    .footer-div1-1 span:not(:first-child){
+        margin-left: 16% !important;
+    }
+    .e-bel2{
+        width: 150px;
+    }
+    .alo{
+        margin-top: -40px;
+    }
+    .full-dört-sosyal-medya-ins, .full-dört-sosyal-medya-tw, .full-dört-sosyal-medya-ytb{
+        margin-left: 26%;
+    }
+    .div10-sol{
+        margin-left: 23%;
+    }
+    .full-iki-sag-div5{
+        height: 600px;
+        margin: 2% 0% 0% 21.87%;
+    }
+    .full-iki-sag-div2 p{
+        margin: 8% 0% 0% 11%;
+        font-size: 0.9vw;
+        line-height: 24px;
+    }
+    .full-iki-sag-div2 .detaylar{
+        margin-left: 11% !important;
+    }
+    .normal, .e-bel, .header-font{
+        font-size: 15px;
+    }
+    .bold{
+        font-size: 20px;
+    }
+    .header-font:hover, .gri-text{
+        font-size: 15px;
+    }
+    .gri-text4{
+        font-size: 18px;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: 0rem; 
+    }
+    .full-bir-sol-yüzde80-bir .div1 {
+        padding-left: 2% !important;
+        margin-top: 2%;
+        font-size: 1vw;
+    }
+    .full-bir-sol-yüzde80-bir .imgnoti{
+        margin-top: 2.8% !important;
+    }
+    .expand {
+        margin-right: 35%;
+        width: 150px;
+        height: 80px;
+    }
+    .expand img {
+        width: 35px;
+        height: 35px;
+        margin-top: 30%;
+        margin-left: 30%;
+    }
+    .full-bir-div4 {
+        margin-top: -13.1%;
+        margin-left: 25%;
+    }
+    .mavi-alan{
+        width: 24%;
+    }
+}
+@media (min-width:1199px){
+    .open-menu, .header-div8{
+        display: none !important;
+    }
+    .white-bgg p, .full-dört-div5 span{
+        font-size: 1vw;
+        margin-bottom: 1vw;
+    }
+    .white-bgg p{
+        margin-bottom: 1rem !important;
+    }
+    .full-dört-div4-border{
+        font-size: 1vw;
+        margin-top: 5% !important;
+    }
+    .full-üc-header, .full-üc-div10 h6{
+        font-size: 1vw;
+    }
+    .baskana-mesaj{
+        width: 140px;
+    }
+}
+@media (max-width:1500px){
+    .baslik ul{
+        justify-content: center;
+    }
+    .full-beş img {
+        margin-right: 0.8rem !important;
+        margin-left: 0.8rem !important;
+    }
+    .e-bel2{
+        width: 135px;
+    }
+    .full-iki-sag-div2 .detaylar{
+        margin-top: 5% !important;
+    }
+    .full-iki-sag-div2 .img-ok2{
+        margin-top: 3% !important;
+    }
+    .mavi-border span{
+        margin-top: 1rem !important;
+    }
+    .normal{
+        font-size: 13px;
+    }
+    .header-list li{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .bold{
+        font-size: 18px;
+    }
+    .full-bir-div4{
+        margin-top: -12.6%;
+    }
+    .expand{
+        margin-right: 37%;
+        width: 180px;
+        height: 70px;
+    }
+    .expand img{
+        width: 25px;
+        height: 25px;
+        margin-top: 28%;
+        margin-left: 34%;
+    }
+    .mavi-alan{
+        width: 25%;
+    }
+    .footer-e-bel, .footer-diyarbakır, .footer-haberler {
+        padding-left: 10%;
+    }
+}
+@media (max-width:1359px){
+
+    .e-bel2{
+        width: 135px;
+    }
+    .full-dört-div1{
+        padding: 15px !important;
+    }
+    .full-dört-div2 .bitmap2, .bitmap-alo{
+        margin-left: 40px !important;
+    }
+    .full-dört-div2 .e-bel2, .alo{
+        margin-left:48px
+    }
+    .div10-sol{
+        margin-left: 20%;
+    }
+    .div10-sol2{
+        margin-left: 28.4%;
+    }
+    .div10-sol3{
+        margin-left: 34%;
+    }
+    .bitmap{
+        width: 120px;
+    }
+    .e-bel{
+        width: 125px;
+        padding-top: 0.4rem !important;
+    }
+    .mavi-border{
+        width: 140px;
+    }
+    .header-font, .header-font:hover{
+        font-size: 12px;
+    }
+    .mavi-border div{
+        margin-top: .5rem !important ;
+    }
+    .open-menu .bitmap{
+        width: 140px;
+    }
+    .open-menu .e-bel{
+        padding-left: 0.5rem !important;
+        width: 140px;
+        z-index: 3;
+    }
+    .open-menu .mavi-border{
+        width: 155px;
+    }
+    .open-menu .mavi-border img{
+        margin-left: 0.3rem !important;
+    }
+    .tirnak-isareti{
+        margin-top: -3rem;
+    }
+    .expand {
+        margin-right: 40%;
+        width: 150px;
+        height: 60px;
+    }
+    .full-bir-div4 {
+        margin-top: -12.4%;
+    }
+    .expand img {
+        width: 20px;
+        height: 20px;
+        margin-top: 29%;
+        margin-left: 36%;
+    }
+    .mavi-alan{
+        width: 27%;
+    }
+    .full-iki-sag-div2 p{
+        line-height: 19px;
+    }
+    .full-iki-sag-div2 .detaylar{
+        margin-top: 3% !important;
+    }
+    .full-iki-sag-div2 .img-ok2{
+        margin-top: 4% !important;
+    }
+}
+@media (max-width:1291px){
+    .full-beş img {
+        margin-right: 0.6rem !important;
+        margin-left: 0.6rem !important;
+    }
+    .normal, .gri-text{
+        font-size: 13px;
+    }
+    .gri-text4{
+        font-size: 16px;
+    }
+    .bold{
+        font-size: 14px;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: 0rem; 
+    }
+    .full-iki-sag-div14 img{
+        margin-top: 100% !important;
+    }
+    .oklar2{
+        margin: 17% 0% 0% 1%;
+    }
+}
+@media (max-width:1199px){
+    .full-iki-sag-div6{
+        width: 40%;
+    }
+    .gri-cizgi, .mavi-cizgi{
+        margin-top: -1rem;
+    }
+    .full-üc-div9{
+        margin-right: -2.5%;
+    }
+    .gray-line{
+        margin-top: -9.8%;
+    }
+    .gri-text3, .etkinlik,.white-bgg p, .e-bel2 a, .alo a, .baskana-mesaj a, .full-üc-div10 p:not(:last-child), .full-üc-div10 .gri-bg p, .full-üc-div10 .gri-bg2 p, .full-üc-div10 .gri-bg3 p,.prgrf-2, .prgrf-1, .full-iki-sag-div3 p{
+        font-size: 1vw;
+    }
+    .normal{
+        font-size: 11px;
+        padding-left: 1rem !important;
+    }
+    .bold{
+        font-size: 15px;
+    }
+    .shortdown1 {
+        width: 18px;
+        margin-left: 2.2rem !important;
+    }
+    .shortdown2, .shortdown3 {
+        width: 18px;
+        margin-left: 2.9rem !important;
+    }
+    .header-div8{
+        display: block;
+        padding-top: 1rem !important;
+        margin-right: 2rem ;
+    }
+    .header-div7{
+        padding:2rem 0rem 0rem 2rem;
+    }
+    .header-div3, .header-div4, .header-div5,.full-iki-sag-div15{
+        display: none !important;
+    }
+    header, .logo img{
+        height: 120px;
+    }
+    .logo{
+        margin-right: auto;
+    }
+    .header-div4, .header-div5 {
+        padding-top: 1.5rem !important;
+    }  
+    .mavi-alan{
+        width: 28.5%;
+    }
+    .full-bir-div4 {
+        margin-top: -13.4%;
+        margin-left: 35%;
+    }
+    .tirnak-isareti {
+        margin-top: -2.5rem;
+        margin-left: -6rem;
+    }
+    .full-bir-sol-yüzde80-bir .imgnoti{
+        margin-top: 3% !important;
+    }
+    .full-bir-sol-yüzde80-bir .img-ok{
+        width: 3.5%;
+        margin-top: 5.2%;
+    }
+    .full-bir-sol-yüzde80-bir .div1{
+        margin-top: 2.2%;
+    }
+    .expand {
+        margin-right: 40%;
+        width: 130px;
+        height: 50px;
+    }
+    .expand img {
+        width: 20px;
+        height: 20px;
+        margin-top: 26%;
+        margin-left: 32%;
+    }
+    .full-bir-sol-yüzde80-iki .div2, .full-bir-sol-yüzde80-iki .div3{
+        width: 23% !important;
+    }
+    .full-bir-sol-yüzde80-iki .aciklama3{
+        margin-top: 35%;
+    }
+    .full-iki-sag-div2 p, .full-iki-sag-div2 .detay{
+        font-size: 1vw;
+    }
+    .full-iki-sag-div2 .detaylar{
+        height: 40px;
+    }
+    .full-iki-sag-div2 .detay{
+        margin-top: 4% !important;
+    }
+    .full-iki-sag-div2 .img-ok2{
+        margin-left: 8% !important;
+    }
+    .full-dört-sosyal-medya ul{
+        justify-content: center;
+    }
+    .full-dört-div4-border, .baslik, .ana-baslik,.gri-text3, .etkinlik {
+        font-size: 1.4vw;
+    }
+    .full-dört-div4-border p{
+        margin-top: 0.5rem!important;
+    }
+    .full-dört-div4-border .tarih {
+        font-size: 1vw;
+        margin-top: -4% !important;
+    }
+    .baslik ul{
+        justify-content: center;
+    }
+    /* .baslik span{
+        margin-left: 0.4rem !important;
+    } */
+    .ana-baslik {
+        margin-top: -3%;
+        width: 60%;
+    }
+    .full-dört-div5 span{
+        font-size: 1vw;
+        margin-bottom: 5%;
+        margin-right: 5% !important;
+    }
+    .div10-sol{
+        margin-left: -1%;
+    }
+    .div10-sol2{
+        margin-left: 10%;
+    }
+    .div10-sol3{
+        margin-left: 17%;
+    }
+    .full-üc-div8 p, .footer-yazi,.flu-bg2 div, .full-üc-div9 {
+        font-size: 1.2vw;
+    }
+    .footer-div5{
+        margin-left: 3.5% !important;
+    }
+    .footer-div3 img{
+        margin: 0% 30%;
+        width: 70% !important;
+    }
+    .full-dört-sosyal-medya{
+        margin-bottom: 5%;
+    }
+    .full-dört-sosyal-medya-ins, .full-dört-sosyal-medya-tw, .full-dört-sosyal-medya-ytb {
+        margin-left: 30%;
+    }
+    .gray-line{
+        margin-top: 1.8%;
+    } 
+    .footer-div1-2 span:not(:first-child) {
+        margin-left: 15% !important;
+    }
+    .footer-e-bel, .footer-diyarbakır, .footer-haberler {
+        padding-left: 4%;
+    }
+    .footer-div1-1 span:not(:first-child) {
+        margin-left: 12% !important;
+    }
+    .open-menu-ebel, .open-menu-diyarbkr {
+        font-size: 1vw;
+    }
+}
+@media (max-width:1025px){
+    .full-iki-sol-yüzde80-bir {
+        margin-left: 4.5%;
+            width: 20.5%;
+    }
+    .open-menu-ebel, .open-menu-diyarbkr {
+        font-size: 1.2vw;
+    }
+    .oklar2 {
+    margin: 17% 0% 0% 0.2%;
+    }
+    .full-üc-div11{
+        margin-top: 20% !important;
+    }
+    .line, .line2, .line3 {
+        width: 70px;
+    }
+    .line {
+        margin-left: -130px;
+    }
+    .line2 {
+        margin-left: -20px;
+    }
+    .line3 {
+        margin-left: 80px;
+    }
+}
+@media (max-width:991px){
+    .img-bg1, .img-bg2 {
+        width: 100%;
+    }
+    .full-üc-div11{
+        margin-top: 10% !important;
+    }
+    .full-iki-sag-div6 {
+        width: 53%;
+    }
+    .footer-div5{
+        margin-left: 0rem !important;
+    }
+    .ikon1, .ikon2 {
+        width: 20px;
+    }
+    .full-beş img {
+        width: 8vw;
+    }
+    .full-iki-sag-div9{
+        width: 96% !important;
+    }
+    .gri-text3, .etkinlik{
+        font-size: 1.5vw;
+    }
+    .full-iki-sag-div15{
+        width: 28% !important;
+        margin: 36% 0% 0% 3.5%;
+    }
+    .full-iki-sag-div15 span, .full-iki-sag-div3 p{
+        font-size: 1.5vw;
+    }
+    .prgrf-1, .prgrf-3{
+        font-size: 1.4vw;
+    }
+    .prgrf-2, .prgrf-4{
+        font-size: 1.5vw;
+    }
+    .full-iki-sag-div10 img {
+        width: 20%;
+    }
+    .full-iki-sag-div11{
+        width: 5%;
+    }
+    .full-iki-sag-div13 img{
+        width: 20% !important;
+    }
+    .full-iki-sag-div14{
+        width: 5%;
+    }
+    .full-üc{
+        margin-top: 80%;
+    }
+    .detay2 {
+        font-size: 1.5vw;
+    }
+    .imgbg{
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    }
+    .full-bir-sag, .full-iki-sag, .full-iki, .full-iki-sag-div4{
+        width: 100%;
+    }
+    .full-iki-sag-div3{
+        background-color: #fff;
+    }
+    .full-iki-sag-div11 img{
+        margin-top: 95% !important;
+    }
+    .full-iki-sag-div14 img{
+        margin-top: 70% !important;
+    }
+    .full-iki-sag-div2 p, .full-iki-sag-div2 .detay{
+        font-size: 1.17vw;
+    }
+    .full-iki-sag-div2 p{
+        margin-top: 1%;
+    }
+    .full-iki-sag-div2 .detay{
+        margin-top: 10% !important;
+    }
+    .full-iki-sag-div2 .img-ok2{
+        margin-top: 3.3% !important;
+        margin-left: 15% !important;
+    }
+    .full-iki-sol-yüzde80-bir{
+        margin-top: -17.8%;
+        margin-left: 80%;
+        width: 20.4%;
+    }
+    .full-iki-sag-div12{
+        margin: 85% 0% 0% -96%;
+        z-index: 2;
+        width: 192% !important;
+    }
+    .full-iki-sag-div13{
+        padding: 2%;
+    }
+    .full-iki-sol-yüzde80-iki-div1{
+        margin-left: 82% !important;
+        width: 18.4%;
+        margin-top: -10%;
+    }
+    .full-iki-sag-div5{
+        margin: 2% 0% 0% 50%;
+    }  
+    .foto{
+        object-fit: cover;
+    }
+    .mavi-alan{
+        width: 29.5%;
+    }
+    .mavi-yazi{
+        width: 40%;
+        margin-top: 20%;
+        margin-left: -90%;
+        z-index: 2;
+    }
+    .full-bir-div4 {
+        margin-left: 8%;
+        margin-top: -14.5%;
+    }
+    .tirnak-isareti{
+        margin-top: -15%;
+        margin-left: 2%;
+    }
+    .expand{
+        margin-right: 40%;
+        width: 80px;
+        height: 50px;
+    }
+    .expand img{
+        margin-top: 28%;
+        margin-left: 30%;
+        width: 20px;
+        height: 20px;
+    }
+    .sosyal-medya ul{
+        margin-top: 15%;
+    }
+    .full-bir-sol-yüzde80-bir, .full-bir-sol-yüzde80-iki{
+        width: 0%;
+    }
+    .full-bir-sol-yüzde80-iki{
+        margin-top: 0%;
+    }
+    .full-bir-sol-yüzde80-bir .imgbg, .oklar2, .gray-line, .full-dört-div2, .full-iki-sol-yüzde80-bir, .full-iki-sol-yüzde80-iki-div1, .full-cizgi{
+        display: none;
+    }
+    .full-bir-sol-yüzde80-bir .imgnoti{
+        margin-top: 5% !important;
+        width: 3%;
+    }
+    .full-bir-sol-yüzde80-bir .div1{
+        margin-top: 4%;
+        font-size: 1.5vw;
+        width: 25%;
+    }
+    .full-bir-sol-yüzde80-bir .img-ok{
+        width: 4%;
+        margin-top: 9%;
+        padding-left: 1% !important;
+    }
+    .full-bir-sol-yüzde80-iki .div2{
+        margin-top: -0.1% !important;
+        margin-left: 30%;
+        width: 25% !important;
+    }
+    .full-bir-sol-yüzde80-iki .div3{
+        margin-top: -0.3% !important;
+        margin-left: 53%;
+        width: 25% !important;
+    }
+    .full-iki{
+        margin-top: 17.2%;
+    }
+    .flu-bg2{
+        margin-left: 3%;
+    }
+    .flu-bg2 div, .full-üc-div10 p:not(:last-child), .full-üc-div8 p{
+        font-size: 1.5vw;
+    }  
+    .flu-bg2 div{
+        padding: 5%;
+    }
+    .flu-bg div{
+        font-size: 1.5vw;
+    }
+    .full-üc-div5 p, .full-dört-div4-border, .baslik, .ana-baslik, .full-dört-div5 span{
+        font-size: 1.5vw;
+    }
+    .full-dört-div5 span{
+        margin-top: 15%;
+    }
+    .full-dört-div4-border .tarih{
+        font-size: 1vw;
+    }
+    .full-üc-div6 img{
+        margin-top: 3% !important;
+        margin-bottom: 3%;
+    }
+    .full-üc-div6 span{
+        font-size: 1.8vw;
+    }
+    .img-ok3{
+        width: 3.5%;
+    }
+    .full-üc-div11{
+        padding-top: 0rem !important;
+        margin-top: 4% !important;
+    }
+    .full-üc-div7 p{
+        font-size: 2.3vw;
+    }
+    .full-üc-div10 .gri-bg p, .full-üc-div10 .gri-bg2 p, .full-üc-div10 .gri-bg3 p{
+        font-size: 1vw;
+    }
+    .detaylar2{
+        margin-top: 0rem !important;
+    }
+    .div10-sol{
+        margin-left: 15%;
+    }
+    .div10-sol2{
+        margin-left: 24%;
+    }
+    .div10-sol3{
+        margin-left: 30%;
+    }
+    .full-üc-header{
+        margin-left: 0.1%;
+    }
+    .full-üc-div9{
+        font-size: 1.5vw;
+        padding: 1.8%;
+        margin-top: -11%;
+        margin-right: 0.2%;
+    }
+    .e-bel2 a, .alo a, .baskana-mesaj a{
+        font-size: 1.3vw;
+    }
+    .alo{
+        margin-top: -19%;
+    }
+    .white-bgg p{
+        font-size: 2vw;
+    }
+    .full-iki-sag-div1{
+        width: 100%;
+    }
+    .footer-div2 img{
+        width: 20% !important;
+    }
+    .full-üc-div8 p, .footer-yazi, .flu-bg2 div, .full-üc-div9 {
+        font-size: 2vw;
+    }
+    .footer-div3 img {
+        width: 20% !important;
+    }
+    .footer-hizmetler span, .footer-projeler span, .footer-diyarbakır span,.footer-haberler span{
+        margin-left: 0rem !important;
+    }
+    .full-üc-div4{
+        margin-left: 1.3rem !important;
+    }
+    .full-dört-div7{
+        padding-left: 1.8rem !important;
+    }
+    .full-dört-div1{
+        margin-right: 35px !important;  
+    }
+}
+@media (max-width:768px){
+    .line, .line2, .line3 {
+        width: 90px;
+    }
+    .line {
+        margin-left: -150px;
+    }
+    .line2 {
+        margin-left: -30px;
+    }
+    .open-menu-ebel, .open-menu-diyarbkr {
+        font-size: 1.8vw;
+    }
+    .full-beş img {
+        width: 8vw;
+    }    
+    .full-üc-div5 p, .full-dört-div4-border, .full-dört-div5 span {
+        font-size: 2vw;
+    }
+    .ana-baslik, .baslik{
+        font-size: 3vw;
+    }
+    .ana-baslik{
+        width: 40%;
+    }
+    .full-dört-div3{
+        margin-top: 1.5rem !important;
+    }
+    .full-dört-div4-border{
+        margin-top: 2rem !important;
+    }
+    .full-dört-div5 span {
+        margin-top: 5%;
+    }
+    .ana-baslik {
+        width: 65%;
+    }
+    .full-dört-div4-border img{
+    margin-top: 0.2rem!important;
+    }
+    .detay2, .full-üc-div7, .full-üc-div8{
+        margin-top: 3% !important;
+    }
+    .img-ok3{
+        margin-top: 2.4% !important;
+    }
+    .full-üc-div4{
+        margin-left: 0.7rem !important;
+    }
+    .mavi-alan {
+        width: 37.5%;
+    }
+    .mavi-line {
+        height: 1500% !important;
+    }
+    .full-dört-div7{
+        margin-left: 0.1px !important;
+    }
+    .full-dört-div1{
+        margin-right: 35px !important;  
+    }
+    .full-dört-div6 div:not(.baskana-mesaj){
+        margin-left: 30% !important;
+    }
+    .baskana-mesaj{
+        margin-left: 5% !important;
+    }
+    .div-baskan img{
+        width: 60%;
+    }
+    .full-bes{
+        width: 93%;
+    }
+    .footer{
+        padding-left: 30px !important;
+        width: 98%;
+    }
+    .div10-sol{
+        margin-left: 10%;
+    }
+    .div10-sol2 {
+        margin-left: 19%;
+    }
+    .div10-sol3 {
+        margin-left: 25%;
+    }
+    .full-üc-div10 .gri-bg2 p, .full-üc-div10 .gri-bg3 p, .full-üc-div10 .gri-bg p, .full-dört-div4-border .tarih {
+        font-size: 1.5vw;
+    }
+    .oklar{
+        display: none;
+    }
+    .full-iki-sag-div2 p, .full-iki-sag-div2 .detay {
+        font-size: 1.2vw;
+    }
+    .full-iki-sag-div5{
+        height: 200px;
+    }
+    .full-iki-sag-div4{
+        height: 150px;
+    }
+    .full-iki-sag-div9{
+        margin: 40% 0% 0% 2%;
+    }
+    .full-iki-sag-div12{
+        margin: 88% 0% 0% -96%;  
+    }
+    .full-üc {
+        margin-top: 83%;
+    }
+    .gri-text3 {
+        font-size: 1.9vw;
+    }
+}
+@media (min-width: 0px) and (max-width:576px){
+    .img-bg1, .img-bg2{
+        height: 400px ;
+        width: 100% ;
+        }
+    .full-bir-sol{
+        width: 100%;
+    }
+    .sosyal-medya{
+        display: block !important;
+        margin-top: 3% !important;
+        margin-bottom: 3% !important;
+    }
+    .sosyal-medya ul{
+        margin-top: 0%;
+    }
+    .white-expand{
+        margin-top: -13%;
+        margin-left: 2% !important;
+    }
+    .full-üc-div4{
+        flex:auto;
+    }
+    .open-menu-ebel, .open-menu-diyarbkr {
+        font-size: 2.5vw;
+    }
+    .expand, .tirnak-isareti, .full-bir-sol-yüzde80-bir .img-ok, .header-sosyal-medya, .oklar, .full-iki-sag-div2, .full-iki-sag-div13 img, .full-iki-sag-div10 img,.full-iki-sag-div15,.full-iki-sag-div11 img{
+        display: none !important;
+    }
+    .full-bir-sol-yüzde80-bir .img-ok, .flu-bg div, .full-üc-div8 p, .full-üc-div5 p, .flu-bg2 div, .full-iki-sag-div15 span, .full-iki-sag-div3 p, .prgrf-1, .prgrf-3, .prgrf-2, .prgrf-4{
+        font-size: 2.5vw;
+    }
+    .baskana-mesaj a, .full-dört-div4-border, .baslik, .ana-baslik, .full-dört-div5 span, .full-üc-div10 p:not(:last-child), .detay2,.full-üc-div7 p,.full-üc-div6 span, .white-bgg p{
+        font-size: 3vw;
+    }
+    .full-bir-sol-yüzde80-iki .baslik2, .full-bir-sol-yüzde80-iki .baslik3, .full-bir-sol-yüzde80-iki .aciklama, .full-bir-sol-yüzde80-iki .aciklama3 {
+        font-size: 4vw;
+    }
+    .gri-text3, .etkinlik{
+        font-size: 3.5vw;
+    }
+    .full-iki-sag-div14 img {
+        margin-top: 50% !important;
+    }
+    .full-bir-sol-yüzde80-bir .div1{
+        font-size: 3.5vw;
+        width: 70%;
+        margin-top: 1%;
+        padding-left: 4% !important;
+    }
+    .flu-bg div {
+        padding: 3%;
+    }
+    .full-bir-sol-yüzde80-iki .div2{
+        margin-top: 12% !important;
+        margin-left: 0%;
+        width: 50% !important;
+    }
+    .full-bir-sol-yüzde80-bir .imgnoti{
+        margin-top: 3% !important;
+        width: 6%;
+    }
+    .full-bir-sol-yüzde80-iki .div3{
+        margin-top: 11.8% !important;
+        margin-left: 49.8%;
+        width: 50% !important;
+    }
+    .full-bir-sol-yüzde80-iki .aciklama3{
+        width: 100% !important;
+        margin-top: 35%;
+    }
+    .full-iki {
+        margin-top: 48%;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-yazi, .full-dört-div4-border .tarih{
+        font-size: 3vw;
+    }
+    .footer-div2 img{
+        width: 25% !important;
+    }
+    .footer-div4{
+        padding-left: 10%;
+    }
+    .footer-div4 div{
+        padding-right: 0px !important;
+    }
+    .footer-div5{
+        margin-left: 1%;
+    }
+    .footer-yazi span{
+        font-weight: bold;
+    }
+    .footer-hizmetler span, .footer-projeler span, .footer-diyarbakır span, .footer-haberler span{
+        margin-left: 0rem !important;
+    }
+    .footer-projeler{
+        margin-left: -2%;
+        margin-top: 10%;
+    }
+    .footer-haberler{
+        margin-top: 10%;
+    }
+    .footer-diyarbakır{
+        margin-right: 10%;
+    }
+    .footer p{
+        margin-bottom: 0rem !important;
+    }
+    header, .logo img {
+        height: 60px;
+    }
+    .logo img{
+        margin-left: 25%;
+    }
+    .header-sosyal-medya{
+        margin-left: 65% !important;
+    }
+    .menu{
+        width: 30px;
+        height: 30px;
+        margin-top: 0rem;
+    }
+    .header-div6{
+        padding-left: 15% !important;
+        padding-top: 1.3rem !important;
+        margin-top: 0rem !important;
+        margin-right: 3%;
+    }
+    .header-div7{
+        padding: 1.8rem 1rem 0rem 0rem !important;
+        margin-top: -2% !important;
+    }
+    .full-bir-div4{
+        margin-top: -13%;
+    }
+    .full-dört-div3, .full-dört-div6{
+        margin-left: 0rem !important;
+    }
+    .full-dört-div4-border p{
+        margin-top: 1% !important;
+    }
+    /* .baslik span{
+        margin-left: 0.5rem!important;
+    } */
+    .ana-baslik{
+        width: 60%;
+    }
+    .full-dört-div5 span{
+        margin-right: 1rem!important;
+        margin-bottom: 10%;
+    }
+    .üst1, .üst2, .üst3, .üst4, .alt1, .alt2, .alt3, .alt4{
+        margin-left: 0rem !important;
+        margin-right: 0.5rem!important;
+    }
+    .full-dört-div1{
+        padding: 3% !important;
+        margin-top: 0.5% !important;
+        margin-right: 20px !important;
+    }
+    .full-üc-div10 .gri-bg p, .full-üc-div10 .gri-bg2 p, .full-üc-div10 .gri-bg3 p{
+        font-size: 2.5vw;
+        margin-left: 5%;
+        padding-top: 12.8% !important;
+    }
+    .div10-sol, .div10-sol2, .div10-sol3{
+        margin-top: 0.5rem !important;
+        margin-left: 0% !important;
+    }
+    .full-üc-div10 p:not(:last-child){
+        padding-top: 10px !important;
+        margin-bottom: 0rem !important;
+    }
+    .img-ok3{
+        margin-top: 3% !important;
+    }
+    .full-üc{
+        margin-top: 95%;
+    }
+    .full-üc-div8 p{
+        margin-left: 1rem !important;
+        margin-right: 0rem !important;
+    }
+    .full-üc-div9{
+        margin-right: 0%;
+        font-size: 2vw;
+    }
+    .full-üc-div10{
+        height: 90px;
+    }
+    .full-iki-sag-div1 p{
+        font-size: 3.5vw;
+        width: 40%;
+    }
+    .full-iki-sag-div12{
+        margin: 90% 0% 0% 8%;
+        width: 190% !important;
+    }
+    .full-iki-sag-div5{
+        height: 250px;
+        width: 55% !important;
+        margin: 5% 0% 0% 43%;
+    }
+    .full-iki-sag-div6{
+        width: 70%;
+        margin: 37% 0% 0% 3%;
+    }
+    .ikon1, .ikon2{
+        width: 20px;
+    }
+    .full-iki-sag-div9{
+        margin-top: 15%;
+        width: 38% !important;
+        margin-left: 4%;
+    }
+    .full-iki-sag-div10 div{
+        margin-left: 3%;
+    }
+    .full-iki-sag-div13 div, .full-iki-sag-div10 div{
+        padding-bottom: 0.5rem !important;
+        padding-top: 0.5rem !important;
+    }
+    .full-üc-header-list ul{
+        justify-content: space-between;
+    }
+    .full-üc-div10 .gri-bg{
+        margin-top: -8% !important;
+        margin-left: 75% !important;
+        margin-right: 5%;
+        height: 40%;
+    }
+    .full-üc-div10 .gri-bg2{
+        margin-top: -11% !important;
+        margin-left: 75% !important;
+        margin-right: 5%;
+        height: 40%;
+    }
+    .full-üc-div10 .gri-bg3{
+        margin-top: -11.5% !important;
+        margin-left: 75% !important;
+        margin-right: 5%;
+        height: 40%;
+    }
+    .full-üc-div6{
+        margin-left: 2% !important;
+    }
+    .full-üc-div6 img{
+        width: 10%;
+    }   
+    .footer-e-bel, .footer-diyarbakır, .footer-haberler {
+        padding-left: 1%;
+    } 
+    .footer-div5 {
+        margin-left: 1% !important;
+    }
+    /* .baslik span {
+        margin-right: 0rem !important;
+    } */
+    .footer-div3 img {
+        width: 40% !important;
+    }
+    .full-üc-div6 span{
+        margin-left: 2% !important;
+    }
+    .mavi-yazi {
+        margin-top: 25%;
+    }
+    .mavi-line {
+        height: 1000% !important;
+    }
+    .div-baskan img {
+        width: 90%;
+    }
+    .full-dört-div6 div:not(.baskana-mesaj) {
+        margin-left: 15% !important;
+    }
+    .baskana-mesaj {
+        margin-left: 6% !important;
+    }
+    .full-beş img {
+        width: 10vw;
+    }
+}
+
